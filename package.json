@@ -1,13 +1,13 @@
 {
   "name": "charts-app",
-  "version": "25.0.18",
+  "version": "25.0.24",
   "description": "DHIS 2 Charts",
   "main": "index.html",
   "scripts": {
     "lint": "./node_modules/eslint/bin/eslint.js src `git diff --cached --name-only | grep \\.js$`",
     "validate": "npm ls --depth 0",
     "start": "webpack-dev-server",
-    "build": "rm -rf build && webpack --config webpack.config.prod.js && cp ./index.html build && cp ./jquery.min.js build && cp ./manifest.webapp build && cp -r i18n build && cp -r dhis2 build && cp -r extjs build"
+    "build": "rm -rf build && webpack --config webpack.config.prod.js && cp ./index.html build && cp ./jquery*.min.js build && cp ./manifest.webapp build && cp -r i18n build && cp -r dhis2 build && cp -r extjs build"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/dhis2/charts-app#readme",
   "dependencies": {
-    "d2-analysis": "25.0.12",
+    "d2-analysis": "25.0.15",
     "d2-charts-api": "25.0.12",
     "d2-utilizr": "0.2.11"
   },
