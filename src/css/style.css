@@ -1255,3 +1255,27 @@ body,
 .ns-panel-title-east-default .x-panel-body {
     border-left: 0;
 }
+
+/* Favorite icon */
+
+.eastPanel .favorite-icon button {
+    padding: 0px;
+}
+
+.eastPanel .favorite-inner {
+    display: none;
+}
+
+.eastPanel .favorite-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+
+.eastPanel .favorite-enabled {
+    background-image: url(../images/favorite-enabled.png);
+}
+
+.eastPanel .favorite-disabled {
+    background-image: url(../images/favorite-disabled.png);
+}
