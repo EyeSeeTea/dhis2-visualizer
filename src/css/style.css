@@ -1256,26 +1256,26 @@ body,
     border-left: 0;
 }
 
-/* Favorite icon */
+/* Subscriptions */
 
-.eastPanel .favorite-icon button {
+.eastPanel .subscriber-icon button {
     padding: 0px;
 }
 
-.eastPanel .favorite-inner {
+.eastPanel .subscriber-inner {
     display: none;
 }
 
-.eastPanel .favorite-icon {
-    width: 16px;
-    height: 16px;
+.eastPanel .subscriber-icon {
+    width: 24px;
+    height: 24px;
     display: inline-block;
 }
 
-.eastPanel .favorite-enabled {
-    background-image: url(../images/favorite-enabled.png);
+.eastPanel .subscriber-enabled {
+    background-image: url(../images/subscriber-enabled.png);
 }
 
-.eastPanel .favorite-disabled {
-    background-image: url(../images/favorite-disabled.png);
+.eastPanel .subscriber-disabled {
+    background-image: url(../images/subscriber-disabled.png);
 }
